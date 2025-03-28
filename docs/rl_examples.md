@@ -349,6 +349,7 @@ Several animations from the SFU Motion Capture Database (https://mocap.cs.sfu.ca
 
 Config files used for this task are:
 
+#######zhhw
 -   **Task config**: [HumanoidAMP.yaml](../isaacgymenvs/cfg/task/HumanoidAMP.yaml)
 -   **rl_games training config**: [HumanoidAMPPPO.yaml](../isaacgymenvs/cfg/train/HumanoidPPOAMP.yaml)
 -   **mocap data**: [motions](../assets/amp/motions)

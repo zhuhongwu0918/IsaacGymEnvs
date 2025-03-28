@@ -1,3 +1,15 @@
+
+conda deactivate && conda activate Tinymal
+conda deactivate && conda activate myenv
+查看位姿Tpose 
+cd  ~/github/IsaacGymEnvs/isaacgymenvs/tasks/amp/poselib
+查看Tpose 
+(Tinymal) gdp@gdp:~/github/IsaacGymEnvs/isaacgymenvs/tasks/amp/poselib$: python mjcf_importer.py  /home/gdp/github/IsaacGymEnvs/assets/urdf/atlas/urdf/atlas_v4_with_multisense.urdf
+
+(Tinymal) gdp@gdp:~/github/IsaacGymEnvs/isaacgymenvs/tasks/amp/poselib$: python mjcf_importer_zhhw.py  /home/gdp/github/IsaacGymEnvs/assets/urdf/atlas/urdf/atlas_v4_with_multisense.urdf
+
+Python 3.8.10  fbx 2020.3.1
+
 # Isaac Gym Benchmark Environments
 
 [Website](https://developer.nvidia.com/isaac-gym) | [Technical Paper](https://arxiv.org/abs/2108.10470) | [Videos](https://sites.google.com/view/isaacgym-nvidia)

@@ -55,6 +55,7 @@ def main(file_path):
 
 if __name__ == "__main__":
     file_path = "../../../../assets/mjcf/amp_humanoid.xml"
+    file_path = "home/gdp/github/IsaacGymEnvs/assets/urdf/atlas/urdf/atlas_v4_with_multisense.urdf"
     if len(sys.argv) > 1:
         file_path = sys.argv[1]
     main(file_path)
